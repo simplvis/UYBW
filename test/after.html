@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>1단계.완성된모습 그려보기</title>
+    <script src="https://cdn.ckeditor.com/ckeditor5/1.0.0-alpha.2/inline/ckeditor.js"></script>
+    <style></style>
+
+  </head>
+  <body>
+    <!-- 1 -->
+    <div id="editor" style="border-style:dashed; border-color:red; position:absolute; left:10px; top:10px"></div>
+    <script>
+    InlineEditor
+        .create( document.querySelector( '#editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+    </script>
+
+    <!-- 2 -->
+    <div id="editor2" style="border-style:dashed; border-color:red; position:absolute; left:100px; top:300px">     </div>
+    <script>
+    InlineEditor
+        .create( document.querySelector( '#editor2' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+    </script>
+
+    <!-- 2 -->
+    <div id="editor3" style="border-style:dashed; border-color:red; position:absolute; left:400px; top:300px">sadfsdf</div>
+    <script>
+    InlineEditor
+        .create( document.querySelector( '#editor3' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+    </script>
+
+    <!-- 2 -->
+    <div id="editor4" style="border-style:dashed; border-color:red; position:absolute; left:40px; top:600px">sadfsdf</div>
+    <script>
+    InlineEditor
+        .create( document.querySelector( '#editor4' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+    </script>
+
+  </body>
+
+  </body>
+</html>
